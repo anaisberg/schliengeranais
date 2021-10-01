@@ -2080,6 +2080,32 @@ input, select, textarea {
 			line-height: 1;
 		}
 
+		#box {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 400px;
+			height: 200px;
+			color: white;
+			font-family: 'Raleway';
+			font-size: 2.5rem;
+		}
+
+		.avatar {
+			align-self: center;
+			flex-shrink: 0;
+			margin-right: 30px;
+			height: calc(100px + 6vw);
+			width: calc(100px + 6vw);
+			border: calc(0.5px + 0.2vw) solid transparent;
+			background-origin: border-box;
+			background-clip: content-box, border-box;
+			background-size: cover;
+			box-sizing: border-box;
+			box-shadow: 0 0 5px 5px #d52349;
+			border-radius: 50%;
+		}
+
 /* Nav */
 
 	#nav {
@@ -2186,8 +2212,9 @@ input, select, textarea {
 		#banner header {
 			background-color: white;
 			display: inline-block;
-			margin-left: 10%;
-			margin-right: 10%;
+			margin-left: 20vw;
+			margin-right: 20vw;
+			opacity: 0.8;
 			padding: 2.5em 5em;
 			border-radius: 5px;
 		}
